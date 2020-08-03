@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #C0C0C0;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+input#txtdisplay {
+    background-color: white;
+    width: 500px;
+    height: 180px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 100px;
+    font-family: Arial;
+    text-align: center;
+}
+
+div#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #C0C0C0;
+    padding: 5px;
+    border-radius: 10px;
+    height: 290px;
+    margin: auto;
+}
+
+input.btn-grid {
+    font-size: 20px;
+    font-family: Arial;
+}
